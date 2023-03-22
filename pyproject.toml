@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hello-my-zsh"
+version = "0.1.0"
+description = ""
+authors = ["ryouhama <hary0730cap@icloud.com>"]
+readme = "README.md"
+packages = [{include = "hello_my_zsh"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = "^6.0"
+black = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
