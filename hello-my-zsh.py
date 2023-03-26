@@ -4,7 +4,7 @@ A backup will be created before execution.
 It is dangerous because it writes directly.
 
 Usage:
-    >>> poetry run python create_zsh.py
+    >>> poetry run python hello-my-zsh.py
 """
 import os
 import shutil
