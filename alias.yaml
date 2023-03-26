@@ -1,11 +1,16 @@
 alias:
+  # Common
   cc: clear
   opz: code ~/.zshrc
   souz: source ~/.zshrc
+  # Python
   p: poetry
   pr: poetry run
   pp: poetry run python
-  pmsp: poetry run python manage.py shell_plus
-  pmmk: poetry run python manage.py makemigrations
-  pmsm: poetry run python manage.py showmigrations
   prpt: poetry run pytest
+  prmsp: poetry run python manage.py shell_plus
+  prmmk: poetry run python manage.py makemigrations
+  prmsm: poetry run python manage.py showmigrations
+  # Telepresence
+  tls: telepresence list
+  tle: telepresence leave
